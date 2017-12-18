@@ -16,7 +16,8 @@ namespace ShopManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AddProducts());
+            //Application.Run(new AddProducts());
+            Application.Run(new POS());
         }
     }
 }
